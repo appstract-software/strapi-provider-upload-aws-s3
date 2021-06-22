@@ -1,5 +1,8 @@
-# strapi-provider-upload-aws-s3
+# Custom strapi-provider-upload-aws-s3
 
+## Customization
+
+The customization of this provider allows to specify env variable CDN_URL. If its value is not undefined the original bucket url of saved media file will be replaced with it.
 ## Configurations
 
 Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`). You can see the complete list of options [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property)
